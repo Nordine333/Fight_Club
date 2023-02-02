@@ -1,0 +1,18 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/yanisse/Documents/LIFAP4/lifap4_PROJET_p2018984'
+g++ -ggdb -Wall -o obj/main.o -c src/main.cpp
+g++ -ggdb -Wall -o obj/Joueur.o -c src/Joueur.cpp
+g++ -ggdb -Wall -o obj/Menu.o -c src/Menu.cpp
+g++ -ggdb -Wall -o obj/Partie.o -c src/Partie.cpp
+g++ -ggdb -Wall -o obj/Inventaire.o -c src/Inventaire.cpp
+g++ -ggdb -Wall -o obj/Objet.o -c src/Objet.cpp
+g++ -ggdb -Wall -o obj/Combat.o -c src/Combat.cpp
+g++ -ggdb -Wall -o obj/Statistiques.o -c src/Statistiques.cpp
+g++ -ggdb -Wall -o obj/Attaque.o -c src/Attaque.cpp
+g++ -ggdb -Wall -o obj/Arme.o -c src/Arme.cpp
+g++ -ggdb -Wall -o obj/IA.o -c src/IA.cpp
+g++ -ggdb -Wall -o obj/jeuSdl.o -c src/jeuSdl.cpp
+g++ -ggdb -Wall -o obj/Map.o -c src/Map.cpp
+g++ obj/* -o bin/main -ljsoncpp -lSDL2 -lSDL2_image -lSDL2_ttf
+make: Leaving directory '/home/yanisse/Documents/LIFAP4/lifap4_PROJET_p2018984'
+ 
